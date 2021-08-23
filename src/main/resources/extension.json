@@ -1,0 +1,5 @@
+{
+  "entrypoint": "me.alex.mtcalendarextension.CalendarExtension",
+  "name": "CalendarExtension",
+  "version": "1.0.0"
+}

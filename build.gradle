@@ -1,0 +1,22 @@
+plugins {
+    id 'java'
+}
+
+group 'me.alex.mtcalendarextension'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+    maven { url 'https://repo.spongepowered.org/maven' }
+    maven { url 'https://jitpack.io' }
+    maven {
+        name = "sonatype-oss-snapshots"
+        url = "https://oss.sonatype.org/content/repositories/snapshots/"
+    }
+}
+
+dependencies {
+    implementation 'com.github.Minestom:Minestom:8f850b8cdb'
+    implementation "net.kyori:adventure-text-minimessage:4.1.0-SNAPSHOT"
+}
+
